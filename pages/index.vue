@@ -3,7 +3,5 @@
 </script>
 
 <template>
-  <div>
-    Page
-  </div>
+  <div>Bobby Tech</div>
 </template>
