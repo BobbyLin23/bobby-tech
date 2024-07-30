@@ -3,7 +3,8 @@
 </script>
 
 <template>
-  <div>
+  <div class="h-full w-full">
+    <TheHeader />
     <slot />
   </div>
 </template>
