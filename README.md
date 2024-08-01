@@ -4,6 +4,7 @@ My personal website.
 
 ## Technology Stack
 - Nuxt3
-- UnoCSS
+- Bun
+- Tailwind CSS
 - VueUse
 - Nuxt Content

@@ -27,7 +27,7 @@ const isLargeScreen = useMediaQuery('(min-width: 1024px)')
 </script>
 
 <template>
-  <nav class="flex items-center gap-x-2 font-normal text-sm">
+  <nav class="flex items-center gap-x-4 font-normal text-sm">
     <NuxtLink
       v-for="item in navList"
       :key="item.label"

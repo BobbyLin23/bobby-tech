@@ -3,11 +3,15 @@
 </script>
 
 <template>
-  <nav class="w-full border-b h-14 flex items-center justify-between px-4 lg:px-8">
-    <TheLogo />
-    <div class="flex items-center space-x-1">
-      <NavigationBar />
-      <ModeToggle />
-    </div>
-  </nav>
+  <TheContainer>
+    <nav class="h-14">
+      <div class="h-full flex items-center justify-between px-3">
+        <TheLogo />
+        <div class="flex items-center space-x-4">
+          <NavigationBar />
+          <ModeToggle />
+        </div>
+      </div>
+    </nav>
+  </TheContainer>
 </template>
