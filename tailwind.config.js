@@ -1,4 +1,6 @@
 const animate = require('tailwindcss-animate')
+const typography = require('@tailwindcss/typography')
+const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -81,5 +83,7 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [animate, typography, iconsPlugin({
+    collections: getIconCollections(['mdi']),
+  })],
 }
