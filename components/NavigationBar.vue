@@ -23,7 +23,7 @@ const navList = [
   },
 ]
 
-const isLargeScreen = useMediaQuery('(min-width: 1024px)')
+const isLargeScreen = useMediaQuery('(min-width: 768px)')
 </script>
 
 <template>

@@ -15,5 +15,6 @@
     <TheContainer>
       <slot />
     </TheContainer>
+    <TheFooter />
   </div>
 </template>

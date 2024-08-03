@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     '@nuxt/content',
+    "@nuxt/image"
   ],
   devServer: {
     port: 4021,
