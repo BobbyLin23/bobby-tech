@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <div>
-    Blog
-  </div>
+  <TheContainer class="mt-10">
+    <h1 class="text-5xl font-semibold my-8">
+      Blogs
+    </h1>
+    <YearBlogList year="2024" />
+  </TheContainer>
 </template>

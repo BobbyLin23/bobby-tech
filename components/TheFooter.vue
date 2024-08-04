@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="mt-32">
+  <footer class="mt-32 mb-10">
     <TheContainer>
       <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
         <p class="text-sm flex-1 text-center text-zinc-500/80 dark:text-zinc-400/80">
