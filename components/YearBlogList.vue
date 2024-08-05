@@ -6,7 +6,7 @@ const props = defineProps<{
 }>()
 
 const query: QueryBuilderParams = {
-  path: '/posts',
+  path: '/blogs',
   where: {
     // @ts-expect-error nuxt content types are not up to date
     date: {
@@ -21,7 +21,7 @@ const query: QueryBuilderParams = {
 <template>
   <ContentList v-slot="{ list }" :query="query">
     <div class="select-none relative h-20 pointer-events-none">
-      <span class="text-[8em] text-transparent absolute left-12 top-8 font-bold stroke-2 stroke-neutral-200 opacity-10">
+      <span class="text-[8em] absolute left-0 -top-6 font-bold stroke-2 stroke-neutral-200 opacity-10">
         {{ year }}
       </span>
     </div>
@@ -29,12 +29,17 @@ const query: QueryBuilderParams = {
       v-for="article in list"
       :key="article._path"
       :href="article._path"
-      class="flex items-center"
+      class="flex items-center gap-x-2"
     >
       <h2 class="text-xl text-muted-foreground">
         {{ article.title }}
       </h2>
-      <p>{{ article._path }}</p>
+      <p class="text-sm text-muted-foreground">
+        {{ new Date(article.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric' }) }}
+      </p>
+      <p class="text-sm text-muted-foreground">
+        {{ article.readingMinute }} min
+      </p>
     </NuxtLink>
   </ContentList>
 </template>
