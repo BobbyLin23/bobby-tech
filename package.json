@@ -18,16 +18,16 @@
     "clsx": "^2.1.1",
     "lucide-vue-next": "0.424.0",
     "nuxt": "3.12.4",
-    "radix-vue": "^1.9.2",
+    "radix-vue": "1.9.3",
     "shadcn-nuxt": "latest",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
-    "vue": "3.4.35"
+    "vue": "3.4.36"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.24.1",
     "@egoist/tailwindcss-icons": "^1.8.1",
-    "@iconify-json/mdi": "^1.1.67",
+    "@iconify-json/mdi": "1.1.68",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@tailwindcss/typography": "^0.5.13",
     "@vueuse/core": "^10.11.0",

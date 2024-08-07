@@ -31,7 +31,7 @@ const query: QueryBuilderParams = {
       :href="article._path"
       class="flex items-center gap-x-2"
     >
-      <h2 class="text-xl text-muted-foreground">
+      <h2 class="text-xl text-muted-foreground cursor-pointer hover:underline hover:opacity-70">
         {{ article.title }}
       </h2>
       <p class="text-sm text-muted-foreground">
