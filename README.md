@@ -6,5 +6,6 @@ My personal website.
 - Nuxt3
 - Bun
 - Tailwind CSS
+- Shadcn UI
 - VueUse
 - Nuxt Content
