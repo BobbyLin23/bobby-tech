@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <Card>
+  <Card class="dark:bg-neutral-800 cursor-pointer">
     <CardHeader>
       <CardTitle>{{ title }}</CardTitle>
       <CardDescription>{{ description }}</CardDescription>
