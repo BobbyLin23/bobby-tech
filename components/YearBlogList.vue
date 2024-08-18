@@ -21,7 +21,7 @@ const query: QueryBuilderParams = {
 <template>
   <ContentList v-slot="{ list }" :query="query">
     <div class="select-none relative h-20 pointer-events-none">
-      <span class="text-[8em] absolute left-0 -top-6 font-bold stroke-2 stroke-neutral-200 opacity-10">
+      <span class="text-[8em] color-transparent absolute left-0 top-[1rem] font-bold stroke-2 stroke-neutral-200 opacity-10">
         {{ year }}
       </span>
     </div>
