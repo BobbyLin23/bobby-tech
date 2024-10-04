@@ -1,6 +1,6 @@
-const animate = require('tailwindcss-animate')
-const typography = require('@tailwindcss/typography')
 const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
+const typography = require('@tailwindcss/typography')
+const animate = require('tailwindcss-animate')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -52,7 +52,7 @@ module.exports = {
         },
       },
       borderRadius: {
-      	xl: 'calc(var(--radius) + 4px)',
+        xl: 'calc(var(--radius) + 4px)',
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { CircleUser, Newspaper, Presentation } from 'lucide-vue-next'
 import type { FunctionalComponent } from 'vue'
+import { CircleUser, Newspaper, Presentation } from 'lucide-vue-next'
 
 const iconMap: Record<string, FunctionalComponent> = {
   Blogs: Newspaper,
