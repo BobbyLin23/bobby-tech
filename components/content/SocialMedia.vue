@@ -13,7 +13,7 @@
       Github
     </NuxtLink>
     <NuxtLink
-      href="https://www.twitter.com/antfu7"
+      href="https://www.twitter.com/bobbylin23"
       target="_blank"
       class="flex items-center gap-1 underline border py-1 px-2 rounded-md hover:opacity-75 border-muted-foreground border-dashed"
     >
